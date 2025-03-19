@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "patch-package"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dayjs": "1.11.13"
+    "dayjs": "1.11.13",
+    "patch-package": "^8.0.0",
+    "postinstall-postinstall": "^2.1.0"
   }
 }
